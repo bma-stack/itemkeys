@@ -1,8 +1,12 @@
 # itemkeys
-Generate itemkeys for a legacy application
+## Generate itemkeys for a legacy application
 
 This app is to generate itemkeys for an application , during initial entry of records. The application 
 itself is not able to assign itemkeys to the records , the calling application (ERP) would master this. 
+The use case is based on a sales order managed in the ERP has to share the demand in form of orderlines to 
+a fulfillment system that is used to receive order and itemkeys from another application.
+The generation of the unique order keys is not part of this project, it is focuse donly on the item keys 
+of the transaction.
 
 One of the objectives was to keep the Core ERP clean and not to implement local logic, rather than showcase
 if we could decouple these functionalities , and implement them in a service oriented way. 

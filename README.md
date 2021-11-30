@@ -27,7 +27,7 @@ The last key parameter is hence optional, and if not provided, the assumption is
 
 The app has 3 layers: 
 - service, that would only manage the request / response
-- app conatining the logic
+- app containing the logic
 - model for data operations. 
 
 Several enhancements could be foreseen in the individual layers such as: 
